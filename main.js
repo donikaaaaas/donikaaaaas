@@ -12,7 +12,7 @@ var getScriptPromisify = (src) => {
         <div id="root" style="width: 100%; height: 100%;">
         </div>
       `;
-  class HalfDoughnutPrepped extends HTMLElement {
+  class FullDoughnutPrepped extends HTMLElement {
     constructor() {
       super();
 
