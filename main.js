@@ -65,7 +65,7 @@ var getScriptPromisify = (src) => {
       {
         name: '',
         type: 'pie',
-        radius: ['40%', '100%'], // Adjusted radius for full donut
+        radius: ['50%', '100%'], // Corrected radius for full donut
         center: ['50%', '50%'],
         label: {
           show: true,
@@ -78,7 +78,8 @@ var getScriptPromisify = (src) => {
     ],
   };
   myChart.setOption(option);
-    }
+}
+
   }
 
   customElements.define("com-sap-sample-echarts-half_doughnut", HalfDoughnutPrepped);
